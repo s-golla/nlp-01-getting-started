@@ -15,14 +15,13 @@ title: Web Mining and Applied NLP 01 Getting Started
 date-released: "2026-03-06"
 
 authors:
-  - family-names: Case
-    given-names: Denise M.
+  - family-names: Golla
+    given-names: Saratchandra
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/nlp-01-getting-started"
-url: "https://github.com/denisecase/nlp-01-getting-started"
-license: MIT
+repository-code: "https://github.com/s-golla/nlp-01-getting-started"
+url: "https://github.com/s-golla/nlp-01-getting-started"
 
 abstract: |
   Web Mining and Applied NLP Example Project 1 - Getting started with
