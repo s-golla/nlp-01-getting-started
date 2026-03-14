@@ -44,6 +44,16 @@ uv run python src/nlp/sentence_case.py
 
 The script prints the original and sentence-cased text.
 
+### sentence_case workflow
+
+```mermaid
+flowchart TD
+  A[Input text] --> B[to_sentence_case(text)]
+  B --> C[Sentence-cased text]
+  C --> D[Run demo() via module execution]
+  D --> E[uv run python src/nlp/sentence_case.py]
+```
+
 The goal is just to confirm you can run projects on your machine.
 Once you get the first project running successfully,
 the rest of the course is much easier.
