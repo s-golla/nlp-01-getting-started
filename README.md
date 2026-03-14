@@ -28,6 +28,22 @@ You'll work with just these areas:
 - **pyproject.toml** - update authorship, links, and dependencies
 - **zensical.toml** - update authorship and links
 
+### New utility: `sentence_case.py`
+
+A new NLP helper script has been added at `src/nlp/sentence_case.py`.
+It includes:
+
+- `to_sentence_case(text: str) -> str` to convert any text into sentence case.
+- `demo()` to run a quick example from the module.
+
+Run it with:
+
+```shell
+uv run python src/nlp/sentence_case.py
+```
+
+The script prints the original and sentence-cased text.
+
 The goal is just to confirm you can run projects on your machine.
 Once you get the first project running successfully,
 the rest of the course is much easier.
